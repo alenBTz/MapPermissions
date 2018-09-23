@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using CustomMapExample.Abstractions;
 using CustomMapExample.Views;
 using Plugin.Permissions;
 using Plugin.Permissions.Abstractions;
@@ -30,9 +26,6 @@ namespace CustomMapExample
             }
             else
                 await Navigation.PushAsync(new MapPage());
-
-            //await Navigation.PushAsync(new MapPage());
-
         }
 
     }
