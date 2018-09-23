@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.ongoing.alenco.OnGoing.CustomMapExample">
+	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="27" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<application android:label="CustomMapExample.Android">
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDI2Bu8dP251TIpgqgOfkfoDfyZ1AHciEA" />
+    </application>
+</manifest>
